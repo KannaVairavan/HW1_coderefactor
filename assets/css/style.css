@@ -1,66 +1,55 @@
-*
-/** Over all Box sizing**/
-
-{
+* {
     box-sizing: border-box;
     padding: 0;
     margin: 0;
 }
-/* The background body color will now be #d9dcd6  */
+
 body {
-    /*  */
     background-color: #d9dcd6;
 }
-/* header class */
+
 .header {
-    /* Put 20 pixel padding, 
-    apply background color #2a6,
-    font color white and  
-    apply  font 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;  */
     padding: 20px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     background-color: #2a607c;
     color: #ffffff;
 }
-/* h1 tag in header class */
+
 .header h1 {
-    /*  */
     display: inline-block;
     font-size: 48px;
 }
-/* header class containts h1 tag. seo class is in h1 tag  */
+
 .header h1 .seo {
     color: #d9dcd6;
 }
-/* div tag is in header class */
-.header div {
+
+.header nav {
     padding-top: 15px;
     margin-right: 20px;
     float: right;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-size: 20px;
 }
-/* unordered list tag is in header class under div tag */
-.header div ul {
-    /* list has no style */
+
+.header nav ul {
     list-style-type: none;
 }
-/* all unordered list tag is in header class under div tag has 25 pixel left margin*/
-.header div ul li {
-    /* display inline block list items horizontally instead of vertically */
+
+.header nav ul li {
     display: inline-block;
     margin-left: 25px;
 }
-/* all a tag */
+
 a {
     color: #ffffff;
     text-decoration: none;
 }
-/* all p tag */
+
 p {
     font-size: 16px;
 }
-/* hero class */
+
 .hero {
     height: 800px;
     width: 100%;
@@ -69,26 +58,23 @@ p {
     background-size: cover;
     background-position: center;
 }
-/* all float left margin */
+
 .float-left {
     float: left;
     margin-right: 25px;
 }
-/* all float right margin */
+
 .float-right {
     float: right;
     margin-left: 25px;
 }
-/* content class style */
+
 .content {
-    /* display inline block list items horizontally instead of vertically,
-    content width 75 percent, 
-    20 pixel of left margin */
     width: 75%;
     display: inline-block;
     margin-left: 20px;
 }
-/* benefits class style */
+
 .benefits {
     margin-right: 20px;
     padding: 20px;
@@ -99,50 +85,26 @@ p {
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     background-color: #2589bd;
 }
-/* benefit-lead class style */
-.benefit-lead {
+
+/*  benefit-lead, benefit-brand & benefit-cost had the same style
+so consolidated all three class into a new class benefit-type */
+.benefit-type { 
     margin-bottom: 32px;
     color: #ffffff;
-}
-/* benefit brand class style */
-.benefit-brand {
-    margin-bottom: 32px;
-    color: #ffffff;
-}
-/* benefit cost class style */
-.benefit-cost {
-    margin-bottom: 32px;
-    color: #ffffff;
-}
-/* benefit lead h3 tag */
-.benefit-lead h3 {
-    margin-bottom: 10px;
-    text-align: center;
-}
-/* benefit brand h3 tag */
-.benefit-brand h3 {
-    margin-bottom: 10px;
-    text-align: center;
-}
-/* benefit cost h3 tag */
-.benefit-cost h3 {
-    margin-bottom: 10px;
-    text-align: center;
-}
-/* benefit lead img tag style */
-.benefit-lead img {
-    display: block;
-    margin: 10px auto;
-    max-width: 150px;
 }
 
-.benefit-brand img {
-    display: block;
-    margin: 10px auto;
-    max-width: 150px;
+/*  benefit-lead h3, benefit-brand h3 & benefit-cost h3 had the same style
+so consolidated all three class into a new class benefit-type h3 */
+
+
+.benefit-type h3 {
+    margin-bottom: 10px;
+    text-align: center;
 }
 
-.benefit-cost img {
+/*  benefit-lead img, benefit-brand img & benefit-cost img had the same style
+so consolidated all three class into a new class benefit-type img */
+.benefit-type img { 
     display: block;
     margin: 10px auto;
     max-width: 150px;
