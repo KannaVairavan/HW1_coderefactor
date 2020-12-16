@@ -1,13 +1,17 @@
-* {
+*
+
+{
     box-sizing: border-box;
     padding: 0;
     margin: 0;
 }
-
+/* Style body tag */
 body {
     background-color: #d9dcd6;
 }
 
+
+/*  Style header class */
 .header {
     padding: 20px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
@@ -41,15 +45,18 @@ body {
     margin-left: 25px;
 }
 
+/* style all a tag */
 a {
     color: #ffffff;
     text-decoration: none;
 }
 
+/* Style all p tag  */
 p {
     font-size: 16px;
 }
 
+/* style hero class */
 .hero {
     height: 800px;
     width: 100%;
@@ -59,22 +66,26 @@ p {
     background-position: center;
 }
 
+/*  style float left class */
 .float-left {
     float: left;
     margin-right: 25px;
 }
 
+/*  style float right class */
 .float-right {
     float: right;
     margin-left: 25px;
 }
 
+/* style content class */
 .content {
     width: 75%;
     display: inline-block;
     margin-left: 20px;
 }
 
+/* style benefits class */
 .benefits {
     margin-right: 20px;
     padding: 20px;
@@ -94,7 +105,7 @@ so consolidated all three class into a new class benefit-type */
 }
 
 /*  benefit-lead h3, benefit-brand h3 & benefit-cost h3 had the same style
-so consolidated all three class into a new class benefit-type h3 */
+so consolidated all three class h3 tag into a new class benefit-type h3 */
 
 
 .benefit-type h3 {
@@ -103,67 +114,45 @@ so consolidated all three class into a new class benefit-type h3 */
 }
 
 /*  benefit-lead img, benefit-brand img & benefit-cost img had the same style
-so consolidated all three class into a new class benefit-type img */
+so consolidated all three class img tag into a new class benefit-type img */
 .benefit-type img { 
     display: block;
     margin: 10px auto;
     max-width: 150px;
 }
+/* style content-style 
+classes search-engine-optimization, online-reputation-management and social-media-marketing  had the same style
+so consolidated all three class into a new class content-style
+*/
 
-.search-engine-optimization {
+.content-style{
     margin-bottom: 20px;
     padding: 50px;
     height: 300px;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     background-color: #0072bb;
     color: #ffffff;
-}
+    }
 
-.online-reputation-management {
-    margin-bottom: 20px;
-    padding: 50px;
-    height: 300px;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    background-color: #0072bb;
-    color: #ffffff;
-}
+/* style  image classes 
+classes search-engine-optimization, online-reputation-management and social-media-marketing  img tag had the same style
+so consolidated all three class img tag into one content-style img 
+*/
 
-.social-media-marketing {
-    margin-bottom: 20px;
-    padding: 50px;
-    height: 300px;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    background-color: #0072bb;
-    color: #ffffff;
-}
-
-.search-engine-optimization img {
+.content-style img{
     max-height: 200px;
 }
 
-.online-reputation-management img {
-    max-height: 200px;
-}
-
-.social-media-marketing img {
-    max-height: 200px;
-}
-
-.search-engine-optimization h2 {
+/* style h2 tags 
+classes search-engine-optimization, online-reputation-management and social-media-marketing  h2 tag had the same style
+so consolidated all three class h2 tag into one content-style h2 (img tag)
+*/
+.content-style h2{
     margin-bottom: 20px;
     font-size: 36px;
 }
 
-.online-reputation-management h2 {
-    margin-bottom: 20px;
-    font-size: 36px;
-}
-
-.social-media-marketing h2 {
-    margin-bottom: 20px;
-    font-size: 36px;
-}
-
+/* style footer class */
 .footer {
     padding: 30px;
     clear: both;
