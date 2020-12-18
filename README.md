@@ -17,7 +17,9 @@ This application is structured properly.
 
 ## Link
 
+https://kannavairavan.github.io/HW1_coderefactor/#social-media-marketing
 
 ### Technologies 
 
 Visual Studio code, HTML5  and CSS
+
